@@ -1,4 +1,4 @@
-# Tab Group widget for cross platform
+# Cross-platform tab group for Titanium
 
 ## Overview
 
@@ -8,7 +8,7 @@ For Demo project please check [Demo for me.wslong.tiTabGroupCrossPlatform](http:
 
 The default height for this widget is 60dp, position's bottom is set to 0dp, which are inheritted from the based project.
 
-## Screenshot
+## Screenshots
 
 * iPhone
 
@@ -87,7 +87,7 @@ $.myTabGroup.setIndex(0);
 	* First parameter is the `id` of the tab
 	* Second parameter is the flag, `true` to show, `false` to hide
 
-## Changelog
+## Changelogs
 
 * 1.3: "More" tab implementation (Updating...)
 * 1.2: API & Style adjustments
