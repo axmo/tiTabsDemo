@@ -1,12 +1,18 @@
-#Tab Group widget for cross platform
+# Tab Group widget for cross platform
 
-##Overview
+## Overview
 
 This widget is initially based on the [com.mcongrove.tabs](https://github.com/mcongrove/com.mcongrove.tabs), with more configureable and improved features for cross-platform like iOS, Android and Mobile Web.
 
 For Demo project please check [Demo for me.wslong.tiTabGroupCrossPlatform](http://github.com/Shallong/me.wslong.tiTabGroupCrossPlatform).
 
 The default height for this widget is 60dp, position's bottom is set to 0dp, which are inheritted from the based project.
+
+## Screenshot
+
+* iPhone
+
+![iPhone](https://raw.githubusercontent.com/Shallong/me.wslong.tiTabGroupCrossPlatform/master/screenshots/tiTabGroup-iphone6.png)
 
 ## Features
 
@@ -17,9 +23,12 @@ The default height for this widget is 60dp, position's bottom is set to 0dp, whi
 
 ## Usage
 
-1. Put the widget inside the container
+1, Put the widget inside the container
+
 ```<Require type="widget" src="me.wslong.tiTabGroupCrossPlatform" id="myTabGroup" />```
-2. Init a tab array, `id` must be unique, `title` is the tab title, `icon` for the default icon of the tab, `activeIcon` for the tab when is clicked and focused
+
+2, Init a tab array, `id` must be unique, `title` is the tab title, `icon` for the default icon of the tab, `activeIcon` for the tab when is clicked and focused
+
 ```
 var tabs = [{
   id : 0,
@@ -43,7 +52,9 @@ var tabs = [{
   activeIcon : "/4_fa5050_72x72.png"
 }];
 ```
-3. Call the `init` method
+
+3, Call the `init` method
+
 ```
 $.myTabGroup.init({
   nodes : tabs,
@@ -51,7 +62,9 @@ $.myTabGroup.init({
   activeBackgroundColor : "#ffffff"
 });
 ```
-4. Set the active index, index is the `id` parameter from tab array
+
+4, Set the active index, index is the `id` parameter from tab array
+
 ```
 $.myTabGroup.setIndex(0);
 ```
