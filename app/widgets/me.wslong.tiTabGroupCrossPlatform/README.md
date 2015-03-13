@@ -18,11 +18,8 @@ The default height for this widget is 60dp, position's bottom is set to 0dp, whi
 ## Usage
 
 1. Put the widget inside the container
-
 ```<Require type="widget" src="me.wslong.tiTabGroupCrossPlatform" id="myTabGroup" />```
-
 2. Init a tab array, `id` must be unique, `title` is the tab title, `icon` for the default icon of the tab, `activeIcon` for the tab when is clicked and focused
-
 ```
 var tabs = [{
   id : 0,
@@ -46,9 +43,7 @@ var tabs = [{
   activeIcon : "/4_fa5050_72x72.png"
 }];
 ```
-
 3. Call the `init` method
-
 ```
 $.myTabGroup.init({
   nodes : tabs,
@@ -56,9 +51,7 @@ $.myTabGroup.init({
   activeBackgroundColor : "#ffffff"
 });
 ```
-
 4. Set the active index, index is the `id` parameter from tab array
-
 ```
 $.myTabGroup.setIndex(0);
 ```
@@ -74,7 +67,7 @@ $.myTabGroup.setIndex(0);
 	* `backgroundColor`: set the background color of each tab, #ffffff by default
 	* `activeBackgroundColor`: set the active background color of each tab, #ffffff by default
 	* `tabClickCallback`: customized callback method after tab is clicked, `id` of the tab is passed back
-* `setTabBadgeNumberValue`
+* `setTabBadgeNumber`
 	* First parameter is the `id` of the tab
 	* Second parameter is the number to show
 * `setTabBadgeDot`
@@ -83,14 +76,15 @@ $.myTabGroup.setIndex(0);
 
 ## Changelog
 
-* 1.2: "More" tab implementation (Updating...)
+* 1.3: "More" tab implementation (Updating...)
+* 1.2: API & Style adjustments
 * 1.1: Initial version with documentation
 * 1.0: Initial commit
 
 ## License
 
 <pre>
-Copyright 2014-2015 Shallong
+Copyright 2015 Shallong
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

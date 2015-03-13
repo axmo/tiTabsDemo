@@ -57,7 +57,7 @@ $.init = function(_params) {
   $.TabGroup.backgroundColor = backgroundColor;
   $.Border.backgroundColor = borderBackgroundColor;
 
-  for (var i = 0; i < nodes.length; i ++) {
+  for (var i = 0; i < nodes.length; i++) {
     var tabController = Widget.createController("singleTab", {
       id : nodes[i].id,
       icon : nodes[i].icon,
@@ -78,7 +78,7 @@ $.init = function(_params) {
  * @param {Object} _index The index of the item to show as active
  */
 $.setIndex = function(_index) {
-  for (var i = 0; i < nodes.length; i ++) {
+  for (var i = 0; i < nodes.length; i++) {
     if (nodes[i].id !== _index && nodes[i].tabController.getTabFocus()) {
       nodes[i].tabController.trigger();
     };
@@ -99,7 +99,7 @@ $.Wrapper.addEventListener("click", function(_event) {
  * @param {Object} _index: the index of the tab
  * @param {Object} _number: the number of the tab badge, null/non-number to remove the badge
  */
-$.setTabBadgeNumberValue = function(_index, _number) {
+$.setTabBadgeNumber = function(_index, _number) {
   nodes[_index] && nodes[_index].tabController.setTabBadgeNumber(_number);
 };
 

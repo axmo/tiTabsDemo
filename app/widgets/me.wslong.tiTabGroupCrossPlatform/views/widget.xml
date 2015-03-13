@@ -1,8 +1,8 @@
 <Alloy>
-    <View id="Wrapper">
-        <View id="TabGroup">
-            <View id="Border" />
-            <View id="TabContainer" />
-        </View>
+  <View id="Wrapper">
+    <View id="TabGroup">
+      <View id="Border" />
+      <View id="TabContainer" />
     </View>
+  </View>
 </Alloy>

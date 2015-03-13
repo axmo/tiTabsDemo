@@ -39,7 +39,7 @@ function tabClickCallback(_index) {
 function updateBadgeNum() {
   var _index = $.inputIndex.value || 0;
   var _badgeNum = $.inputBadgeNumberValue.value || 0;
-  $.deseTabGroup.setTabBadgeNumberValue(_index, _badgeNum);
+  $.deseTabGroup.setTabBadgeNumber(_index, _badgeNum);
 };
 
 function updateBadgeDot() {

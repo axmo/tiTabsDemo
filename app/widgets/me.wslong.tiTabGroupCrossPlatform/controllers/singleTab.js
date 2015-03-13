@@ -29,12 +29,14 @@ exports.getTabFocus = function() {
 exports.setTabBadgeNumber = function(_number) {
   Ti.API.debug(">> singleTab>setTabBadgeNumber: with _number = " + _number);
   var intNumber = parseInt(_number, 10);
-  if ( !isNaN(intNumber)) {
+  if (!isNaN(intNumber)) {
     if (intNumber > 0) {
       $.badgeDot.visible = false;
       $.badgeNumVal.text = (intNumber > 99 ? "99" : intNumber);
-      Math.floor(intNumber / 10) > 0 ? ($.badgeNum.width = "20dp") : ($.badgeNum.width = "16dp");
+      // Math.floor(intNumber / 10) > 0 ? ($.badgeNum.width = "20dp") : ($.badgeNum.width = "16dp");
       $.badgeNum.visible = true;
+    } else {
+      $.badgeNum.visible = false;
     };
   } else {
     $.badgeNum.visible = false;

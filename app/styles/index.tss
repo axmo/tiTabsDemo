@@ -1,44 +1,43 @@
 ".container": {
-	backgroundColor: "white"
+  backgroundColor: "white"
 },
 
 "TextField":{
-	color: "black"
+  color: "black"
 },
 
 "#label": {
-	top: 60,
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	color: "#000",
-	font: {
-		fontSize: 20
-	}
+  top: 60,
+  width: Ti.UI.SIZE,
+  height: Ti.UI.SIZE,
+  color: "#000",
+  font: {
+    fontSize: 20
+  }
 },
 
 "#inputIndex":{
-	top: 100,
-	width: "80%",
-	height: 40,
-	hintText: "Enter the tab index"
+  top: 100,
+  width: "80%",
+  height: 40,
+  hintText: "Enter the tab index"
 },
 
 "#inputBadgeNumberValue":{
-	top: 160,
-	width: "80%",
-	height: 40,
-	hintText: "Enter the badge number value"
+  top: 160,
+  width: "80%",
+  height: 40,
+  hintText: "Enter the badge number value"
 },
 
 "#btnBadgeNum":{
-	top: 250,
-	width: "80%",
-	height: 30
+  top: 250,
+  width: "80%",
+  height: 30
 },
 
 "#btnBadgeDot":{
-	top: 300,
-	width: "80%",
-	height: 30
+  top: 300,
+  width: "80%",
+  height: 30
 }
-
