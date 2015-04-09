@@ -8,6 +8,6 @@
   "os:ios": {},
   "os:mobileweb": {},
   "dependencies": {
-    "me.wslong.tiTabGroupCrossPlatform": "1.2"
+    "me.wslong.tiTabs": "2.0"
   }
 }

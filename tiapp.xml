@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-  <id>me.wslong.tiTabGroupCrossPlatform</id>
-  <name>tiTabGroupCrossPlatform</name>
+  <id>me.wslong.tiTabsDemo</id>
+  <name>tiTabsDemo</name>
   <version>1.0</version>
   <publisher>Shallong</publisher>
   <url>http://wslong.me</url>
-  <description />
+  <description>The completed demo for the widget, me.wslong.tiTabs</description>
   <copyright>2015 Shallong</copyright>
   <icon>appicon.png</icon>
   <fullscreen>false</fullscreen>

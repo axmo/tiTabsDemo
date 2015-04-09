@@ -21,7 +21,7 @@ var tabs = [{
 }];
 
 // Initialize the tab bar
-$.deseTabGroup.init({
+$.myTabGroup.init({
   nodes : tabs,
   backgroundColor : "#ffffff",
   activeBackgroundColor : "#ffffff",
@@ -29,7 +29,7 @@ $.deseTabGroup.init({
 });
 
 // Set the first tab as active
-$.deseTabGroup.setIndex(0);
+$.myTabGroup.setIndex(0);
 
 // Handle the click event on a tab
 function tabClickCallback(_index) {
@@ -39,12 +39,12 @@ function tabClickCallback(_index) {
 function updateBadgeNum() {
   var _index = $.inputIndex.value || 0;
   var _badgeNum = $.inputBadgeNumberValue.value || 0;
-  $.deseTabGroup.setTabBadgeNumber(_index, _badgeNum);
+  $.myTabGroup.setTabBadgeNumber(_index, _badgeNum);
 };
 
 function updateBadgeDot() {
   var _index = $.inputIndex.value || 0;
-  $.deseTabGroup.setTabBadgeDot(_index, true);
+  $.myTabGroup.setTabBadgeDot(_index, true);
 };
 
 $.index.open();
