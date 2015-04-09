@@ -1,15 +1,13 @@
-# Demo for tiTabGroupCrossPlatform
+# tiTabsDemo
 
 ## Overview
 
-This is the demo project for the widget [me.wslong.tiTabGroupCrossPlatform](app/widgets/me.wslong.tiTabGroupCrossPlatform).
+This is an existing demo for the widget [me.wslong.tiTabs](https://github.com/Shallong/tiTabsDemo/app/widgets/me.wslong.tiTabs).
 
-This widget works for iOS, Android and Mobile Web. (Currently tested against these 3 platforms)
+And also as the repository of the widget itself.
+
+This widget works for iOS, Android and Mobile Web.
 
 ## Overall Screenshot
 
-![Widget Overall Screenshot](https://raw.githubusercontent.com/Shallong/me.wslong.tiTabGroupCrossPlatform/master/screenshots/screenshot.jpg)
-
-## About this Demo
-
-The demo project is configured to be able to run in titanium studio directly.
+![Widget Overall Screenshot](https://github.com/Shallong/tiTabsDemo/blob/master/screenshots/screenshot.jpg)

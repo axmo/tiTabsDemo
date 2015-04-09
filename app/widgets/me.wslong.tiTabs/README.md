@@ -6,7 +6,7 @@ Was me.wslong.tiTabGroupCrossPlatform, an iOS-like Cross-Platform Tab Group for 
 
 This widget is initially based on the [com.mcongrove.tabs](https://github.com/mcongrove/com.mcongrove.tabs), with more configurable and improved features for iOS, Android and Mobile Web.
 
-For Demo project please check [Demo for me.wslong.tiTabs](http://github.com/Shallong/me.wslong.tiTabGroupCrossPlatform).
+For a completed Demo project please check [Demo for me.wslong.tiTabs](https://github.com/Shallong/tiTabsDemo).
 
 The default height for this widget is 60dp, position's bottom is set to 0dp, which are inherited from the based project.
 
@@ -14,7 +14,7 @@ The default height for this widget is 60dp, position's bottom is set to 0dp, whi
 
 * iPhone
 
-![iPhone](https://raw.githubusercontent.com/Shallong/me.wslong.tiTabGroupCrossPlatform/master/screenshots/tiTabGroup-iphone6.png)
+![iPhone](https://github.com/Shallong/tiTabsDemo/blob/master/screenshots/tiTabGroup-iphone6.png)
 
 ## Features
 
@@ -92,7 +92,7 @@ $.myTabGroup.setIndex(0);
 ## Changelogs
 
 * 2.1: "More" tab implementation
-* 2.0: Refactor
+* 2.0: Project Refactor
 * 1.2: API & Style adjustments
 * 1.1: Initial version with documentation
 * 1.0: Initial commit
