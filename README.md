@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is an existing demo for the widget [me.wslong.tiTabs](https://github.com/Shallong/tiTabsDemo/app/widgets/me.wslong.tiTabs).
+This is an existing demo for the widget [me.wslong.tiTabs](https://github.com/Shallong/tiTabsDemo/tree/master/app/widgets/me.wslong.tiTabs).
 
 And also as the repository of the widget itself.
 
