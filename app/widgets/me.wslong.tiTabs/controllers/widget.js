@@ -66,6 +66,8 @@ $.init = function(_params) {
       fontColor : fontColor,
       fontActiveColor : fontActiveColor,
       fontFamily : fontFamily,
+      backgroundColor : backgroundColor,
+      activeBackgroundColor : activeBackgroundColor,
       tabWidth : width
     });
     nodes[i].tabController = tabController;
@@ -105,8 +107,26 @@ $.setTabBadgeNumber = function(_index, _number) {
 
 /**
  * @param {Object} _index: the index of the tab
+ */
+$.getTabBadgeNumber = function(_index) {
+	if(nodes[_index]){
+		return nodes[_index].tabController.getTabBadgeNumber();
+	}
+};
+
+/**
+ * @param {Object} _index: the index of the tab
  * @param {Object} _flag: true to show, false to hide
  */
 $.setTabBadgeDot = function(_index, _flag) {
   nodes[_index] && nodes[_index].tabController.setTabBadgeDot(_flag);
+};
+
+/**
+ * @param {Object} _index: the index of the tab
+ */
+$.isSetTabBadgeDot = function(_index) {
+	 if(nodes[_index]) {
+	 	return nodes[_index].tabController.isSetTabBadgeDot();
+	 }
 };

@@ -20,20 +20,4 @@
   layout: "horizontal",
   height: "60dp",
   width: Ti.UI.FILL
-},
-
-"#TabGroupMore": {
-  height: Ti.UI.SIZE,
-  bottom: "60dp"
-},
-
-"#TabContainerMore": {
-  height: Ti.UI.SIZE,
-  right: "0dp"
-},
-
-"#TabsMore": {
-  layout: "vertical",
-  height: Ti.UI.SIZE,
-  bottom: "0dp"
 }

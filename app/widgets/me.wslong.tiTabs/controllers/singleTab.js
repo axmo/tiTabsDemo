@@ -8,6 +8,8 @@ var args = arguments[0] || {},
     fontColor = args.fontColor,
     fontActiveColor = args.fontActiveColor,
     fontFamily = args.fontFamily,
+    backgroundColor = args.backgroundColor,
+    activeBackgroundColor = args.activeBackgroundColor,
     tabFocus = false,
     tabWidth = args.tabWidth + "dp";
 
@@ -15,9 +17,11 @@ exports.trigger = function() {
   if (tabFocus) {
     $.icon.image = icon;
     $.label.color = fontColor;
+    $.tabContainer.backgroundColor = backgroundColor;
   } else {
     $.icon.image = activeIcon;
     $.label.color = fontActiveColor;
+    $.tabContainer.backgroundColor = activeBackgroundColor;
   }
   tabFocus = !tabFocus;
 };
@@ -37,10 +41,14 @@ exports.setTabBadgeNumber = function(_number) {
       $.badgeNum.visible = true;
     } else {
       $.badgeNum.visible = false;
-    };
+    }
   } else {
     $.badgeNum.visible = false;
-  };
+  }
+};
+
+exports.getTabBadgeNumber = function() {
+	return parseInt($.badgeNumVal.text, 10) || 0;
 };
 
 exports.setTabBadgeDot = function(_flag) {
@@ -50,14 +58,22 @@ exports.setTabBadgeDot = function(_flag) {
     $.badgeDot.visible = true;
   } else {
     $.badgeDot.visible = false;
-  };
+  }
+};
+
+exports.isSetTabBadgeDot = function() {
+	return $.badgeDot.visible || false;
 };
 
 $.tabContainer.id = id;
-$.icon.image = icon;
+if(icon && icon !== "") {
+	$.icon.image = icon;
+} else {
+	$.icon.visible = false;
+}
 $.label.color = fontColor;
 $.label.text = title;
 if (fontFamily) {
   $.label.font.fontFamily = fontFamily;
-};
+}
 $.tabContainer.width = tabWidth;
