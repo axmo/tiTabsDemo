@@ -14,7 +14,7 @@ The default height for this widget is 60dp, position's bottom is set to 0dp, whi
 
 * iPhone
 
-![iPhone](../blob/master/screenshots/tiTabGroup-iphone6.png)
+![iPhone](../../master/screenshots/tiTabGroup-iphone6.png)
 
 ## Features
 
